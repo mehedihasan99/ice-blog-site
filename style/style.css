@@ -264,10 +264,15 @@ footer{
     grid-gap: 15px;
 
 }
+.about-item:hover{
+    transform: scale(1.05);
+    
+}
 .about-item{
     width: 100%;
     box-shadow: 2px 2px 3px 4px rgba(197, 196, 196, 0.2);
     overflow: hidden;
+    transition: .4s all ease-in-out;
 }
 .about-img{
     transform: translate(100px,30px);
